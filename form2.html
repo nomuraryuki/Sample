@@ -1,0 +1,98 @@
+<!-- 課題入力フォーム2 form2.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form2.css">
+    <title>質問・感想フォーム</title>
+</head>
+
+<body>
+
+    <h1>アンケート</h1>
+    <div class="all">
+        <p>
+            Axizの研修をご利用いただき、誠にありがとうございます。
+            <br>
+            以下の内容の記入及び送信していただけると幸いです。
+        </p>
+
+        <p>
+            会社名 <span class="absolute" required>必須</span><br>
+            <input type="text" name="company" placeholder="例)株式会社テクノコア" class="textbox">
+        </p>
+
+        <p>
+            お名前 <span class="absolute" required>必須</span><br>
+            <input type="text" name="name" placeholder="例)手久野　興亜" class="textbox">
+        </p>
+
+        <p>メールアドレス<br>
+            <input type="text" name="adoress" placeholder="例)example@axiz.co.jp" class="textbox">
+        </p>
+
+        <p>年齢<br>
+            <input type="text" name="age" value="23" class="age">
+        </p>
+
+
+
+        <p>受講コース<br>
+            <span class="course">
+
+                <label><input type="radio" name="radio" value="Java">Java</label>
+
+                <label><input type="radio" name="radio" value="インフラ">インフラ</label>
+
+            </span>
+        </p>
+
+        <p>会場<br>
+            <select name="place" class="place">
+                <option value="1" selected>日本橋AI教室</option>
+                <option value="2">東京CSS教室</option>
+                <option value="3">沖縄IT教室</option>
+            </select>
+        </p>
+
+        <p>詳しく学びたい内容(複数回答可)<br>
+            <span class="contents">
+
+                <label><input type="checkbox" name="test" value="1">ビジネスマナー</label>
+                </br>
+
+                <label><input type="checkbox" name="test" value="2">HTML/CSS</label>
+                </br>
+
+                <label><input type="checkbox" name="test" value="3">Javascript</label>
+                </br>
+
+                <label><input type="checkbox" name="test" value="4">Java</label>
+                </br>
+
+                <label><input type="checkbox" name="test" value="5">データベース</label>
+                </br>
+
+                <label><input type="checkbox" name="test" value="6">Linux</label>
+                </br>
+
+            </span>
+        </p>
+        <p>ご意見<br>
+            <textarea name="free" rows="6" cols="20" placeholder="自由にご記入ください"></textarea>
+        </p>
+
+        <p>
+            <button type="sousin">送信する</button>
+        </p>
+    </div>
+<br>
+    <footer>
+        Copyright（C）AxiZ
+    </footer>
+
+</body>
+
+</html>

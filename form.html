@@ -1,0 +1,78 @@
+<!-- 課題入力フォーム１ form.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form1.css">
+    <title>質問・感想フォーム</title>
+    <h1>質問・感想フォーム</h1>
+</head>
+
+<body>
+
+    
+            <div class="all">
+                <p><label for="name">氏名</label></p>
+                <input type="text" name="name" value="" id="name">
+
+
+                <p>性別</p>
+                <div class="seibetu">
+                    <div class="male">
+                        <input type="radio" name="radio" value="男" id="man"><label for="man">男</label>
+                    </div>
+
+                    <div class="female">
+                        <input type="radio" name="radio" value="女" id="women"><label for="women">女</label>
+                    </div>
+                </div>
+
+                <p>年齢</p>
+                <select name="age">
+                    <option value="ten" selected>10代</option>
+                    <option value="twenty">20代</option>
+                </select>
+
+                <p>今後見てみたいレシピ</p>
+                <div class="recipe">
+                    <div class="washoku">
+                        <input type="checkbox" name="test" value="washoku" id="washoku"><label for="washoku">和食</label>
+                    </div>
+
+                    <div class="tyuka">
+                        <input type="checkbox" name="test" value="tyuka" id="tyuka"><label for="tyuka">中華</label>
+                    </div>
+
+                    <div class="youshoku">
+                        <input type="checkbox" name="test" value="yousyoku" id="youshoku"><label
+                            for="youshoku">洋食</label>
+                    </div>
+
+                    <div class="italy">
+                        <input type="checkbox" name="test" value="italy" id="italyan"><label for="italyan">イタリアン</label>
+                    </div>
+
+                    <div class="sweets">
+                        <input type="checkbox" name="test" value="sweets" id="sweets"><label for="sweets">スイーツ</label>
+                    </div>
+
+                    <div class="etc">
+                        <input type="checkbox" name="test" value="etc" id="etc"><label for="etc">その他</label>
+                    </div>
+
+                </div>
+
+                <p>自由コメント欄</p>
+                <textarea name="free" rows="3" cols="20" placeholder="自由に意見を記述してください"></textarea>
+
+                <p>
+                    <button type="sousin">送信</button>
+                    <button type="clear">取り消し</button>
+                </p>
+            </div>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+/* 課題入力フォーム2 form2.css */
+body{
+    background-color: rgb(202, 242, 241);
+}
+
+h1{
+    text-align: center;
+    border-bottom: 5px solid #4b65ea;
+    color: rgb(127, 255, 131);
+}
+.all{
+    background-color: white;
+    border: solid 2px;
+    border-color: gray;
+    border-radius: 10px;
+    width:fit-content;
+    display: block;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.absolute{
+    border: solid 2px;
+    border-color: red;
+    background-color: red;
+    border-radius: 5px;
+    
+    color: white;
+}
+
+.age{
+    text-align: center;
+    border-radius: 5px;
+    width: 50px;
+}
+
+.textbox{
+    border-radius: 5px;
+    width: 550px;
+}
+
+.place{
+    width: 550px;
+}
+
+.seibetu{
+    display: flex;
+    justify-content:center;
+    gap: 6px ;
+    
+}
+
+.male{
+    border: solid 2px;
+    border-color: #000000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.female{
+    border: solid 2px;
+    border-color: #000000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.contents{
+    display:contents;
+    justify-content:center;
+    gap: 6px ;
+}
+textarea{
+    width: 550px;
+    resize: vertical;
+    border-radius: 5px;
+}
+
+footer{
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+    text-align: center;
+    border-top: 5px solid #4b65ea ;   
+}

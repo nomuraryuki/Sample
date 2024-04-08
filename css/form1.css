@@ -1,0 +1,94 @@
+ /* 課題入力フォーム１ form1.css */
+body{
+    background-image: url(../images/bg_Argyle.jpg);
+}
+
+h1{
+    text-align: center;
+}
+.all{
+    text-align: center;
+    background-color: white;
+    border: solid 2px;
+    border-color: purple;
+    border-radius: 10px;
+    width:fit-content;
+    display: block;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+
+.seibetu{
+    display: flex;
+    justify-content:center;
+    gap: 6px ;
+    
+}
+
+.male{
+    border: solid 1px;
+    border-color: #000000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.female{
+    border: solid 1px;
+    border-color: #000000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.recipe{
+    display: flex;
+    justify-content:center;
+    gap: 6px ;
+}
+
+.washoku{
+    border: solid 1px;
+    border-color: #000000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tyuka{
+    border: solid 1px;
+    border-color: #000000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.youshoku{
+    border: solid 1px;
+    border-color: #000000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.italy{
+    border: solid 1px;
+    border-color: #000000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.sweets{
+    border: solid 1px;
+    border-color: #000000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.etc{
+    border: solid 1px;
+    border-color: #000000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+textarea{
+    width: 300px;
+}
